@@ -207,7 +207,7 @@ main{
 }
 .info_obj-1{
    color: #fff;
-   padding:  10%;
+   
    display: flex;
    flex-direction: column;
    justify-content: center;
@@ -219,7 +219,7 @@ main{
 }
 .info_obj-2{
    color: #fff;
-   padding:  10%;
+   
    display: flex;
    flex-direction: column;
    justify-content: center;
@@ -264,8 +264,14 @@ main{
 }
 .info_obj-1 img{
    border-radius: 30px;
-   margin-left: 15%;
-   min-width: 580;
+   min-width: 320;
+  max-width: 500;
+  width: 75% ;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+  margin:40px 0 !important ;
+  
    
 }
 .info_obj-2 span, .info_obj-1 span {
@@ -276,7 +282,7 @@ main{
 }
 .info_obj-1 h3{
    text-align: left !important;
-   padding:20px 0;
+  margin-left: 10%;
 }
 .info_obj-1 h2 , .info_obj-2 h2{
    
@@ -305,7 +311,31 @@ main{
       visibility: hidden;
 
 }
-.imagem{
-padding: 40px !important;
 
+.info_obj-1 h3, .info_obj-2 h2{
+  padding: 40px;
+}
+
+  .info_obj-1 p{
+    margin-bottom: 15%;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+    margin: auto;
+    padding: 0 10%;
+  }
+.info_obj-2 p {
+  text-align: center;
+  justify-content: center;
+ display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+.espaço{
+  padding-bottom: 10%;
+}
+
+
+.preciso{
+  padding: 0 10px 30px 10px !important;
 }
